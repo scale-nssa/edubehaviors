@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EduBehaviors: Assertion-based Schemas for Auditable Coding of Educational Dialogues</title>
+<style>
+:root{--bg:#f7f9fa;--fg:#1c1a17;--mut:#7e7775;--line:#dde2e4;--acc:#007a91;
+  --accbg:#e3f3f6;--accborder:#bfe3ea;--darkteal:#1d3457;--card:#fff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+  font:15px/1.55 ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{display:flex;align-items:center;gap:.7rem;
+  padding:.6rem 1.4rem;border-top:3px solid var(--acc);border-bottom:1px solid var(--line);
+  background:var(--card)}
+.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:var(--fg)}
+.brand .logo{height:1.6rem;display:block}
+.hero{max-width:900px;margin:0 auto;padding:5rem 1.4rem 6rem;text-align:center}
+.hero h1{font-size:3rem;font-weight:750;letter-spacing:-.02em;line-height:1.15;
+  margin:0 0 1rem;color:var(--darkteal);font-family:'Baskerville', 'Hoefler Text', serif}
+.hero h1 .edu{color:var(--acc)}
+.hero h1 .behaviors{color:var(--darkteal)}
+.hero .subtitle{font-size:1.15rem;font-weight:400;color:var(--mut);line-height:1.5;
+  max-width:640px;margin:0 auto 2.2rem}
+.links{display:flex;justify-content:center;gap:.7rem;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:.5rem;padding:.6rem 1.3rem;
+  border-radius:999px;text-decoration:none;font-weight:600;font-size:.95rem;
+  border:1px solid var(--accborder);transition:transform .15s,box-shadow .15s,
+  background-color .15s,border-color .15s,color .15s}
+.btn.primary{background:var(--acc);color:#fff;border-color:var(--acc);
+  box-shadow:0 4px 14px -4px rgba(0,122,145,.45)}
+.btn.primary:hover{filter:brightness(1.08);transform:translateY(-1px);
+  box-shadow:0 6px 18px -4px rgba(0,122,145,.55)}
+.btn.ghost{background:var(--accbg);color:var(--darkteal);border-color:var(--accborder)}
+.btn.ghost:hover{background:#fff;border-color:var(--acc);color:var(--acc);
+  transform:translateY(-1px);box-shadow:0 6px 18px -6px rgba(0,122,145,.35)}
+.btn svg{width:1.05rem;height:1.05rem;flex:none}
+.btn.ghost svg{color:var(--acc)}
+</style>
+</head>
+<body>
+<header>
+  <a class="brand" href="https://scale.stanford.edu" target="_blank" rel="noopener">
+    <img src="img/scale-logo.png" alt="Stanford SCALE Initiative" class="logo">
+  </a>
+</header>
+
+<div class="hero">
+  <h1><span class="edu">Edu</span><span class="behaviors">Behaviors</span></h1>
+  <p class="subtitle">An interpretable, scalable, reliable framework for identifying educational behaviors in conversational data.</p>
+  <div class="links">
+    <a class="btn primary" href="#">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6H6zm7 1.5L18.5 9H13V3.5zM8 13h8v1.5H8V13zm0 3h8v1.5H8V16zm0-6h4v1.5H8V10z"/></svg>
+      Paper
+    </a>
+    <a class="btn ghost" href="https://github.com/scale-nssa/edubehaviors-studio" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.4 9.4 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.75c0 .26.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+      EduBehaviors Studio
+    </a>
+    <a class="btn ghost" href="https://scale-nssa.github.io/edubehaviors-kit/" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.66 5.66l-6.3 6.3a1 1 0 0 0 0 1.42l1.6 1.6a1 1 0 0 0 1.42 0l6.3-6.3a4 4 0 0 0 5.66-5.66l-2.5 2.5-2-2z"/></svg>
+      EduBehaviors-Kit
+    </a>
+  </div>
+</div>
+
+</body>
+</html>
